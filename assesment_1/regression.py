@@ -1,9 +1,4 @@
 import pandas as pd
 
-# Load the dataset
-data = pd.read_csv("../source/assessment_1_database_csvfile.csv")
-
-# Show data
+data = pd.read_csv('data.csv')
 print(data.head())
-print(data.info())
-print(data.describe())
